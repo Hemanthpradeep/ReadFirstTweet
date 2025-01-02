@@ -1,0 +1,23 @@
+// filepath: /d:/education/MyRepos/ReadFirstTweet/.vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "$d:/education/MyRepos/ReadFirstTweet/"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "$d:/education/MyRepos/ReadFirstTweet/"
+            }
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "D:/education/MyRepos/ReadFirstTweet/venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "black",
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "editor.formatOnSave": true
+}
